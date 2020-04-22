@@ -1,0 +1,433 @@
+
+
+@media (max-width: 980px) {
+	.navbar-collapse.collapse {
+		margin-left: 0px;
+		/*margin-top: 15px;*/
+		padding-left: 0px;
+	}
+	.navbar-default .navbar-nav > li {
+		margin-left: 0px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		padding: 5px 20px 5px 0px;
+	}
+	.navbar-header {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.navbar > .container .navbar-brand {
+		text-align: center;
+		width: 100%;
+	}
+	.navbar > .container .navbar-brand img {
+		display: inline-block;
+	}
+	#translation-steps .steps-heading h1 {
+		font-size: 30px;
+	}
+	#translation-steps .steps-container .step span {
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+	}
+	#translation-steps .steps-container .step span i.fa {
+		line-height: 100px;
+	}
+	#translation-steps .steps-container .step .steps-arrow {
+		right: -14%;
+		top: 42px;
+	}
+	#translation-steps .steps-container .step p {
+		font-size: 14px;
+	}
+	#our-community .community-container .community-text-box::after {
+		left: -40px;
+	}
+	#our-community .community-container p.become-translator span {
+		font-size: 18px;
+	}
+	#footer .footer-box {
+		margin-bottom: 30px;
+	}
+
+	/* ---------> Language Page <--------- */
+
+	#LangCombinationCol .LangCombBox .text-center {
+		text-align: left;
+		padding-left: 0px;
+		margin-bottom: 5px;
+	}
+	#languages-combination .langComb-container .SLanguageT {
+		margin-top: 210px;
+	}
+	#testimonial .testimonial-slider {
+		padding-left: 0px;
+	}
+	#testimonial .bx-wrapper {
+		margin-top: 15px;
+	}
+	#testimonial .testimonial-slider p {
+		padding-left: 75px; 
+		padding-right: 75px;
+	}
+	#testimonial .testimonial-slider p::after {
+		right: 50px;
+	}
+	#testimonial .testimonial-slider p::before {
+		left: 50px;
+	}
+	
+	/* ---------> Services Page <--------- */
+	#servicesInfo p {
+		margin-bottom: 15px;
+	}
+	#serveClient ul {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 30px;
+	}
+	#serveClient ul li {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	/* ---------> Translators Page <--------- */
+	#translator-worldWide h1 {
+		font-size: 38px;
+	}
+	.question-container .col-xs-10.no-padding {
+		padding-left: 15px;
+	}
+
+	/* ---------> Prices Page <--------- */
+	.price-table:before {
+		top: -20px;
+	}
+	.price-table:after {
+		bottom: -20px;
+	}
+	
+	/* ---------> Contact Page <--------- */
+	.translator-form {
+		margin-top: 40px;
+	}
+	
+	/* ---------> Blog Page <--------- */
+
+	#blog .section-heading {
+		font-size: 32px;
+	}
+
+	.detail-text-box .no-right-padding {
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.detail-text-box .text-right {
+		text-align: left;
+	}
+
+}
+
+@media (max-width: 640px) {
+	#topbar .top-menu {
+		text-align: center;
+	}
+	#topbar .pull-right {
+		text-align: center;
+		float: none !important;
+		margin-top: 10px;
+	}
+	.navbar-header {
+		margin-bottom: 0px;
+	}
+	.navbar-nav {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.navbar > .container .navbar-brand {
+		text-align: left;
+		width: 83.3333%;
+	}
+	.navbar-collapse.in > ul > li {
+		padding: 5px 20px;
+	}
+	.translate-dropdown {
+		position: absolute;
+    	right: 92px;
+    	/*margin-right: -40px;*/
+    	top: -42px;	
+	}
+	#translator .translation-form .btn-swap {
+		right: 15px;
+
+	}
+	#translator .translation-form .translate-option .btn-instant-translate {
+		margin-top: 30px;
+	}
+	#human-translation .humn-translation-img {
+		display: none;
+	}
+	.steps-heading h1 {
+		font-size: 24px;
+	}
+	.steps-heading p {
+		font-size: 22px;
+	}
+	.steps-container .step {
+		margin-bottom: 30px;
+	}
+	.steps-container .step:last-child {
+		margin-bottom: 0px;
+	}
+	.community-image {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.community-image img {
+		display: inline-block;
+	}
+	#our-community .community-container .community-text-box::after {
+		left: 50%;
+		top: -18px;
+		z-index: 0;
+		transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+	}
+	#our-community .bx-viewport {
+		z-index: 5;
+	}
+	#translation-steps .steps-container .step .steps-arrow {
+		display: none;
+	}
+	
+	/* ---------> Language Page <--------- */
+	
+	#languages-combination .langComb-container .SLanguageT {
+		display: none;
+	}
+	#languages-combination .langComb-container {
+		margin-bottom: -1px;
+	}
+	.section-heading {
+		font-size: 30px;
+	}
+	#LangCombinationCol .LangCombBox:nth-last-child(2) {
+		margin-bottom: 40px;	
+	}
+
+	/* ---------> Translators Page <--------- */
+	#translator-worldWide h1 {
+		font-size: 32px;
+	}
+	#translator-worldWide p {
+		font-size: 22px;
+	}
+	.question-container .col-xs-10.no-padding {
+		padding-left: 0px; 
+	}
+
+	/* ---------> Prices Page <--------- */
+	.price-table::before {
+		height: 30px;
+		top: -28px;
+	}
+	.price-table::after {
+		height: 30px;
+		bottom: -28px;
+	}
+	.price-buttons .filter {
+		padding: 10px 8px;
+		font-size: 12px;
+	}	
+	.price-table::before {
+		top: -27px;
+	}
+	.price-table::after {
+		bottom: -27px;
+	}
+
+	/* ---------> Blog Page <--------- */
+	#blog-banner {
+		padding: 100px 0;
+	}
+	.comment-form {
+		margin-bottom: 50px;
+	}
+	.pagination {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.section-heading {
+		font-size: 26px;
+	}
+	.section-desc {
+		padding-left: 65px;
+		padding-right: 65px; 	
+	}
+	#banner {
+		padding: 75px 0px;
+	}
+	#earth {
+		display: none;
+	}
+	#banner .btn {
+		margin:10px 5px 30px 5px;
+		padding: 10px;
+	}
+	#banner .banner-text h1 {
+		font-size: 38px;
+	}
+	.navbar-toggle {
+		float: none;
+		margin-bottom: 0px;
+	}
+	.navbar {
+		padding: 8px 0px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		padding-left: 20px;
+	}
+	.translate-dropdown {
+		position: absolute;
+    	right: 84px;
+    	top: -34px;	
+	}
+	#translation-steps .steps-heading h1 {
+		font-size: 18px;
+	}
+	#translation-steps .steps-heading p {
+		font-size: 18px;
+	}
+
+	/* ---------> Language Page <--------- */
+	#pageBar {
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	#pageBar .pull-left,
+	#pageBar .pull-right {
+		float: none !important;
+	}	
+	#LangCombinationCol h1 {
+		font-size: 24px;
+	}
+	#testimonial .testimonial-slider p {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	#testimonial .testimonial-slider h2 {
+		margin-top: 15px;
+	}	
+	
+	/* ---------> Services Page <--------- */
+	.price-table::before {
+		top: -21px;
+	}
+	.price-table::after {
+		bottom: -21px;
+	}
+	
+	/* ---------> Translators Page <--------- */
+	#translator-worldWide h1 {
+		font-size: 24px;
+	}
+	#translator-worldWide p {
+		font-size: 18px;
+	}
+	#translators-container .xs-width {
+		width: 95%;
+	}
+	#translators-container .col-xs-offset-2 {
+		/*margin-left: ;*/
+		margin-left: 3%;		
+	}
+
+}
+
+@media (max-width: 360px) {
+	.section-heading {
+		font-size: 22px;
+	}
+	.navbar-collapse.collapse {
+		margin-top: 45px;
+	}
+	.translate-dropdown {
+		position: absolute;
+    	right: 10px;
+    	top: 10px;	
+	}
+	#banner .banner-text h1 {
+		font-size: 32px;
+	}
+	#banner .banner-text h4 {
+		font-size: 24px;
+	}
+	.section-desc {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	#translation-steps .steps-heading h1 {
+		font-size: 14px;
+	}
+	#translation-steps .steps-heading p {
+		font-size: 14px;
+	}
+	.navbar-toggle {
+		margin-right: 0px;
+	}
+
+	/* ---------> Services Page <--------- */
+	#serveClient ul {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#serveClient ul li {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#serveClient ul li img {
+		width: 64%;
+	}
+
+	/* ---------> Translators Page <--------- */
+	#translator-worldWide h1 {
+		font-size: 18px;
+	}
+	#translator-worldWide p {
+		font-size: 13px;
+	}
+	.question-container .col-xs-10.no-padding {
+		padding-left: 15px; 
+	}
+
+	/* ---------> Prices Page <--------- */
+	.price-table::before {
+		top: -16px;
+	}
+	.price-table::after {
+		bottom: -16px;
+	}
+	.price-buttons .filter {
+		padding: 10px 5px;
+		font-size: 10px;
+	}
+	
+	/* ---------> Blog Page <--------- */
+	.blog-info ul li {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 320px) {
+	#serveClient ul li {
+		width: 45%;
+	}
+	#serveClient ul li img {
+		width: 55%;
+	}	
+}

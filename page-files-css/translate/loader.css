@@ -1,0 +1,186 @@
+/*
+  Project Name : Translator
+  Author Company : Ewebcraft
+  Project Date: 12 january, 2016
+  Author Website : http://www.ewebcraft.com
+  Author Email : ewebcraft@gmail.com
+*/
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('hinted-Raleway-Medium.eot');
+  src: local('Raleway Medium'), local('Raleway-Medium'),
+    url('../fonts/hinted-Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hinted-Raleway-Medium.woff2') format('woff2'),
+    url('../fonts/hinted-Raleway-Medium.woff') format('woff'),
+    url('../fonts/hinted-Raleway-Medium.ttf') format('truetype'),
+    url('../fonts/hinted-Raleway-Medium.svg#Raleway-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('hinted-Raleway.eot');
+  src: local('Raleway'),
+    url('../fonts/hinted-Raleway.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hinted-Raleway.woff2') format('woff2'),
+    url('../fonts/hinted-Raleway.woff') format('woff'),
+    url('../fonts/hinted-Raleway.ttf') format('truetype'),
+    url('../fonts/hinted-Raleway.svg#Raleway') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#loader {
+    background: #2F3030;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:99999;
+}
+.loader {
+  position: absolute;
+  top: 50%;  
+  left: 50%;
+  margin-left: -158px;
+  margin-top: -18px;
+  display: inline-block;  
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 36px;
+  color: #7dc343;
+}
+
+.loaderTxt {
+ /* position: relative;
+  /*top: 50%;*/  
+  display: inline-block;
+  text-transform: uppercase;  
+  opacity: 0;
+  transform: rotateX(-90deg);
+}
+
+.let1 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let2 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.3s;
+}
+
+.let3 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.let4 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.5s;
+
+}
+
+.let5 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+.let6 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.7s;
+}
+
+.let7 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.8s;
+}
+.let8 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.9s;
+}
+.let9 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2.0s;
+}
+.let10 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 2.1s;
+}
+
+@keyframes drop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    80% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    90% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+        top: 6.94em
+    }
+}
+@-webkit-keyframes drop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    80% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    90% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+        top: 6.94em
+    }
+}
+@-moz-keyframes drop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    80% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    90% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+        top: 6.94em
+    }
+}
+
+@media (max-width: 360px) {
+  .loader {
+    font-size: 28px;
+    margin-left: -118px;
+  }
+}
