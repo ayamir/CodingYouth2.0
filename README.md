@@ -4,7 +4,7 @@ CodingYouth
 这是一个前后端没有分离的项目，使用PHP作为后端语言
 
 可以通过这个网址来直接访问：
-[佑思编程](www.codingyouth.com)
+[佑思编程](http://www.codingyouth.com)
 
 
 面向的用户有两种：普通会员、创作者
